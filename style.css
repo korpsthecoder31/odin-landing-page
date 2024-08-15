@@ -139,9 +139,25 @@ body {
 
 /* QUOTE SECTION */
 
+.quote {
+    background-color: #e5e7eB;
+    padding: 100px 22% 85px;    
+}
 
+#quote-body {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
 
+#quote-user {
+    font-weight: 900;
+    text-align: right;
+    margin: 15px 64px;
+}
 
+/* CALL TO ACTION SECTION */
 
 
 
