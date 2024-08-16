@@ -159,7 +159,39 @@ body {
 
 /* CALL TO ACTION SECTION */
 
+.signup {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 15%;
+}
 
+.signup-main {
+    padding: 32px 15%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+}
+
+.signup-main > * {
+    flex: 1;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+#signup-button {
+    padding: 16px 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
 
 /* temporary borders to visualize */
 
