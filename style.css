@@ -15,7 +15,7 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    padding: 16px 10% 64px;
+    padding: 16px 15% 64px;
     background-color: #1F2937;
     color: white;
     height: 700px;
@@ -66,7 +66,7 @@ body {
 
 .title-intro {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 51px;
     font-weight: 900;
 }
 
@@ -162,7 +162,7 @@ body {
 .signup {
     display: flex;
     flex-direction: column;
-    padding: 64px 15%;
+    padding: 96px 15%;
 }
 
 .signup-main {
@@ -184,7 +184,7 @@ body {
 }
 
 #signup-button {
-    padding: 16px 32px;
+    padding: 12px 32px;
     border: 2px solid white;
     border-radius: 8px;
     background-color: #3882F6;
@@ -193,10 +193,16 @@ body {
     cursor: pointer;
 }
 
-/* temporary borders to visualize */
+/* FOOTER SECTION */
 
-.pending {
-    border: 1px solid blue;
+.footer {
+    padding: 32px 0px 10px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
 }
 
-/* temporary borders to visualize */
+#korps-tag {
+    margin-top: 3px;
+    color: #1F2937;
+}
